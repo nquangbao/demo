@@ -1,0 +1,225 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	overflow: auto;
+	overflow-x: hidden;
+
+}
+header h1,p {
+	font-size: 1em;
+	display: inline-block;
+	color : #19438c;
+	text-transform: uppercase;
+}
+header div.fix {
+	display: flex;
+}
+header div.title {
+	padding: 0.5rem;
+}
+header strong {
+	color: #fea713;
+	font-size: 1em;
+	display: inline-block;
+	padding-left: 0.5rem;
+}
+header nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 0.5rem;
+	cursor:pointer;
+}
+header nav ul li a{
+	color: #000;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: .8em;
+	cursor:pointer; 
+	
+}
+header nav ul li a.active {
+	color: #0f4dba;
+}
+header nav ul li.active {
+	border-bottom: 2px solid #fea713;
+	
+}
+header nav ul li a:hover {
+	text-decoration: none;
+	color: #0f4dba;
+	
+}
+header nav ul li:hover {
+	border-bottom: 2px solid #fea713;
+}
+
+
+header form input {
+	width: 100%;
+	border-radius: 25px;
+	border: 1px solid;
+	height: 100%;
+	
+}
+header form input:focus {
+	outline: none;
+	color: #fea713;
+	font-size: 1em;
+	font-weight: bold;
+}
+header div.input {
+	position: relative;
+	width: 100%;
+	height: 30px;
+}
+header form button {
+	position: absolute;
+	right: 10px;
+	top: 2px;
+	width: 10%;
+	background: transparent;
+	border: none;
+
+}
+section#slider button{
+	width: 20%;
+	height: 3rem;
+}
+::placeholder{
+	padding-left: 20px;
+}
+section#logo fieldset {
+	border : 1px solid #ccc;
+	max-width: 100%;
+	border-radius: 20px;
+}
+section#logo fieldset legend {
+	width: 22%;
+	padding: 0px 10px;
+	font-weight: bold;
+}
+section#logo fieldset span {
+	padding: 1rem 0.5rem;
+	display: inline-block;
+	font-size: 0.1em;
+	font-weight: bold;
+}
+
+section#logo fieldset span.arow {
+	font-size: 1.5em;
+	font-weight: bold;
+	color : #ccc;
+	cursor: pointer;
+}
+main {
+margin: 4rem 0;
+}
+main div.item {
+	height: 320px;
+	width: 100%;
+	position: relative;
+	background-size: auto;
+	
+
+}
+main div.fix-width {
+	overflow: hidden;
+}
+
+main div.right {
+	right: 0;
+}
+main div.left{
+	left: 0;
+}
+main div#item1{
+	background : url('./images/item1.png');
+
+}
+main div#item2{
+	background : url('./images/item2.png');
+	background-repeat: no-repeat;	
+}
+main div#rv3{
+	background-color: #eaba6d;
+}
+main div#rv4{
+	background-color: #7d95ad;
+}main div#rv5{
+	background-color: #eb8ba0;
+}main div#rv6{
+	background-color: #62a1c8;
+}
+
+main div.item div.rvitem {
+	width: 40%;
+	height: 100%;	
+	opacity: 0.8;
+	position: absolute;
+}
+main div.item div#rv1{
+	background-color: #63bcc9;
+}
+
+main div.item div#rv2 {
+	background-color: #9c93b4;
+}
+main div.item div.rvitem div.caption {
+	padding: 2rem 0;
+	
+	
+}
+main div.item div.rvitem h3, div.rvitem h4, div.rvitem button {
+	color : white;
+	font-size: 1.3em;	
+	border-radius: 13px;
+}
+main div.fix {
+	padding: 1rem 0;
+}
+main#kt h4 {
+	color : #000;
+}
+main#kt span {
+	padding: 0px 0.5rem;
+	font-size: 2em;
+	cursor:pointer;
+}
+main#kt span i {
+	font-size: 0.3em;
+}
+hr {
+	border-top : 2px solid #ccc !important;
+}
+main#kt h5 {
+	color : #1b3d7c;
+}
+main#kt p.card-text {
+	text-transform: none;
+}
+footer {
+	width: 100%;
+	background-color: #20385d;
+	padding: 1rem 0;
+}
+footer h2 {
+	color: white;
+	padding: 1rem 0;
+	font-size: 1.5em;
+	text-transform: uppercase;
+}
+footer address, footer p {
+	color: white;
+}
+footer div.boder {
+	border-right: 1px solid #465a0a;
+}
+footer span {
+	color : yellow;
+}
+
+.modal-content {
+    background: cornflowerblue !important;
+}
