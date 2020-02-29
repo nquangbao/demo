@@ -1,0 +1,29 @@
+"geojson"
+{
+	"type" :"Feauture",
+	"properties" : {},
+	"geometry" : "polygon",
+	"copdinates" : 
+	[
+		[
+			21.0278, 105.8342
+		],
+		[
+			21.0278, 105.8342
+		]
+	]
+},
+{
+	"type" :"Feauture",
+	"properties" : {},
+	"geometry" : "polygon",
+	"copdinates" : 
+	[
+		[
+			21.0278, 105.8342
+		],
+		[
+			21.0278, 105.8342
+		]
+	]
+}
